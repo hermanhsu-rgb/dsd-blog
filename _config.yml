@@ -1,0 +1,25 @@
+title: DSD数字化微笑设计
+description: DSD国际中文版 - 数字化微笑设计专业资讯与案例分析
+author: Herman Hsu (许恒恺)
+baseurl: ""
+url: "https://hermanhsu-rgb.github.io/dsd-blog"
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Herman Hsu"
